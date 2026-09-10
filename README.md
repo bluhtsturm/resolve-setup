@@ -4,7 +4,6 @@
 
 Blackmagic unterstützt offiziell nur Rocky Linux. Unter Debian scheitert Resolve an drei vorhersehbaren Stellen: am Paketcheck des Installers, an den mitgelieferten GLib-/libc++-Bibliotheken, die mit dem aktuellen System-libpango kollidieren, und an OpenCL — Resolve zeigt eine leere GPU-Liste und startet nicht. Das Skript deckt alle drei ab und sorgt vor allem dafür, dass auch der **Menüeintrag** funktioniert, nicht nur der Aufruf im Terminal.
 
-*[English version of this document](README.md)*
 
 ---
 
@@ -147,7 +146,6 @@ Install and configure **DaVinci Resolve** on **Debian** with **AMD graphics**, i
 
 Blackmagic only supports Rocky Linux. On Debian, Resolve fails in three predictable places: the installer's package check, the bundled GLib/libc++ libraries that collide with the modern system libpango, and OpenCL — Resolve shows an empty GPU list and refuses to start. This script handles all three and, importantly, makes the **application menu entry** work, not just a terminal command.
 
-*[Deutsche Version dieser Anleitung](README.de.md)*
 
 ---
 
